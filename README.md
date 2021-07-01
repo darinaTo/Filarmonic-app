@@ -1,7 +1,6 @@
 # Filarmonic app
-The goal this project do some basic functions and standard role. The user can register or login, buy ticket
-get all concerts.
-The project was build according to 3-tier architecture.
+ The goal of this project do some basic functions and standard roles. The user can register or log in, buy tickets get all concerts. 
+ The project was build according to 3-tier architecture.
 
 ## Technologies
 - Spring Web/Security/Mvc

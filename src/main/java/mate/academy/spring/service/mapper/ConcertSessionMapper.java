@@ -5,13 +5,14 @@ import java.time.format.DateTimeFormatter;
 import mate.academy.spring.dto.request.ConcertSessionRequestDto;
 import mate.academy.spring.dto.response.ConcertSessionResponseDto;
 import mate.academy.spring.model.ConcertSession;
-import mate.academy.spring.service.StageService;
 import mate.academy.spring.service.ConcertService;
+import mate.academy.spring.service.StageService;
 import mate.academy.spring.util.DateTimePatternUtil;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ConcertSessionMapper implements RequestDtoMapper<ConcertSessionRequestDto, ConcertSession>,
+public class ConcertSessionMapper implements RequestDtoMapper<ConcertSessionRequestDto,
+        ConcertSession>,
         ResponseDtoMapper<ConcertSessionResponseDto, ConcertSession> {
     private final DateTimeFormatter formatter =
             DateTimeFormatter.ofPattern(DateTimePatternUtil.DATE_TIME_PATTERN);

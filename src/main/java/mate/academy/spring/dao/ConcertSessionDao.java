@@ -6,7 +6,7 @@ import java.util.Optional;
 import mate.academy.spring.model.ConcertSession;
 
 public interface ConcertSessionDao {
-    ConcertSession add(ConcertSession ConcertSession);
+    ConcertSession add(ConcertSession concertSession);
 
     Optional<ConcertSession> get(Long id);
 

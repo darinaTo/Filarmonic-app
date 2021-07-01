@@ -15,7 +15,7 @@ public class ConcertSession {
     @ManyToOne
     private Concert concert;
     @ManyToOne
-    private CinemaHall cinemaHall;
+    private Stage stage;
     private LocalDateTime showTime;
 
     public Long getId() {
@@ -34,12 +34,12 @@ public class ConcertSession {
         this.concert = concert;
     }
 
-    public CinemaHall getCinemaHall() {
-        return cinemaHall;
+    public Stage getStage() {
+        return stage;
     }
 
-    public void setCinemaHall(CinemaHall cinemaHall) {
-        this.cinemaHall = cinemaHall;
+    public void setStage(Stage stage) {
+        this.stage = stage;
     }
 
     public LocalDateTime getShowTime() {
@@ -55,7 +55,7 @@ public class ConcertSession {
         return "ConcertSession{"
                 + "id=" + id
                 + ", concert=" + concert
-                + ", cinemaHall=" + cinemaHall
+                + ", stage=" + stage
                 + ", showTime=" + showTime + '}';
     }
 }

@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class CinemaHall {
+public class Stage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -39,7 +39,7 @@ public class CinemaHall {
 
     @Override
     public String toString() {
-        return "CinemaHall{"
+        return "Stage{"
                 + "id=" + id
                 + ", capacity=" + capacity
                 + ", description='" + description + '\'' + '}';

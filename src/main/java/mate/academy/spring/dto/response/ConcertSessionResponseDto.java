@@ -4,7 +4,7 @@ public class ConcertSessionResponseDto {
     private Long concertSessionId;
     private Long concertId;
     private String concertTitle;
-    private Long cinemaHallId;
+    private Long stageId;
     private String showTime;
 
     public Long getConcertSessionId() {
@@ -31,12 +31,12 @@ public class ConcertSessionResponseDto {
         this.concertTitle = concertTitle;
     }
 
-    public Long getCinemaHallId() {
-        return cinemaHallId;
+    public Long getStageId() {
+        return stageId;
     }
 
-    public void setCinemaHallId(Long cinemaHallId) {
-        this.cinemaHallId = cinemaHallId;
+    public void setStageId(Long stageId) {
+        this.stageId = stageId;
     }
 
     public String getShowTime() {

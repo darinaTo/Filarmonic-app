@@ -23,7 +23,7 @@ public class ShoppingCartDaoImpl extends AbstractDao<ShoppingCart> implements Sh
                     "SELECT DISTINCT sc FROM ShoppingCart sc "
                             + "left join fetch sc.tickets t "
                             + "left join fetch t.ConcertSession ms "
-                            + "left join fetch ms.cinemaHall "
+                            + "left join fetch ms.stage "
                             + "left join fetch ms.concert "
                             + "WHERE sc.user = :user", ShoppingCart.class);
             getByUser.setParameter("user", user);

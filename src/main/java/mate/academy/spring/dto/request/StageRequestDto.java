@@ -3,7 +3,7 @@ package mate.academy.spring.dto.request;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
-public class CinemaHallRequestDto {
+public class StageRequestDto {
     @Min(10)
     private int capacity;
     @Size(max = 200)

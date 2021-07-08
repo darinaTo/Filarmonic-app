@@ -14,8 +14,9 @@
 2. Install MySql Workbench and in the resources/db.properties change the _url_, _driver_, _user_ and _password_.
 3. Configuration Tomcat(Local).
 4. Run project.
+5. Create and aad information about User (password and email).
 
-## Role
+## User actions depending on the role
 ### User can:
 - process the order
 - view a history of all the orders

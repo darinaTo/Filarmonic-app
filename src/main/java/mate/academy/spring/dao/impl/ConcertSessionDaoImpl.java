@@ -2,6 +2,9 @@ package mate.academy.spring.dao.impl;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 import mate.academy.spring.dao.AbstractDao;
 import mate.academy.spring.dao.ConcertSessionDao;
 import mate.academy.spring.exception.DataProcessingException;

@@ -14,7 +14,6 @@ public abstract class AbstractDao<T> {
     private final Class<T> clazz;
     private final Logger logger = LogManager.getLogger(AbstractDao.class);
 
-
     public AbstractDao(SessionFactory factory, Class<T> clazz) {
         this.factory = factory;
         this.clazz = clazz;
